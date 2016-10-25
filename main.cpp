@@ -389,7 +389,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {};
+static const string mainnet_seeds[] = {"privnet.z.cash", "privnet2.z.cash", ""};
 static const string testnet_seeds[] = {"betatestnet.z.cash", "explorer.testnet.z.cash", ""};
 static const string *seeds = mainnet_seeds;
 
