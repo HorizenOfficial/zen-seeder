@@ -389,8 +389,8 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"mainnet-zen.zencash.io", "mainnet-zen.zdeveloper.org", "mainnet-zen.rotorproject.org", ""};
-static const string testnet_seeds[] = {"testnet-zen.zencash.io", "testnet-zen.zdeveloper.org", "testnet-zen.rotorproject.org", ""};
+static const string mainnet_seeds[] = {"mainnet.zensystem.io", "zenseed.network", "zpool.blockoperations.com", "node1.zenchain.info", ""};
+static const string testnet_seeds[] = {"testnet.zensystem.io", "zpool2.blockoperations.com", "node.scottrockcafe.com", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
