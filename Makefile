@@ -1,4 +1,4 @@
-CXXFLAGS = -O3 -g0 -march=native
+CXXFLAGS = -O1 -g0 -march=x86-64
 LDFLAGS = $(CXXFLAGS)
 
 COMMIT_HASH=`git rev-parse --short HEAD 2>/dev/null`
